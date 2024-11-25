@@ -48,6 +48,10 @@ Digite o comando abaixo:
 
 ```ssh-keygen -t rsa -b 4096 -C "sem e-mail de cadastro"```
 
+Agora navegue até a sua pasta de usuários no Windows e entre na pasta **.ssh**. Este caminho normalmente é o seguinte: C:\Users(ou Usuários)\Seu usuário\.ssh
+
+Esta pasta terão dois arquivos chamados **id_rsa**. Abra o arquivo com a extensão **.pub** e copie todo o código.
+
 Vá até o seu repositório [GitHub](https://github.com/) e clique na sua foto, na parte superior esquerda. No menu que se abrir, clique em **Settings**.
 
 ![image](https://github.com/user-attachments/assets/cc030b92-7b28-474f-848c-ebece66758ec)
@@ -59,3 +63,27 @@ Clique em **SSH and GPG keys**
 Clique em **New SSH key**
 
 ![image](https://github.com/user-attachments/assets/1d0c2006-be03-42a4-9370-a8aff512d71a)
+
+Defina um título para a sua chave e copie o código do arquivo **id_rsa** na caixa de texto **key**.
+
+![image](https://github.com/user-attachments/assets/d1526128-caab-4a28-abc0-f822077fdcc5)
+
+Confirme a operação clicando no botão **Add SSH key**.
+
+Para testar se a operação teve êxito, vá até um de seus repositórios no seu [GitHub](https://github.com/) (de preferência um que você queira baixar para o seu computador). Clique no botão **Code**, clique em **SSH** e copie o atalho que aparecer.
+
+![image](https://github.com/user-attachments/assets/f0b67473-23bc-4237-ab1a-90271ec798b5)
+
+
+Agora vá até a pasta com os seus repositórios do git e clique com o botão direito.
+
+![image](https://github.com/user-attachments/assets/dea9a0f1-8557-497a-ae62-d00457ba7ef8)
+
+Selecione **Open Git Bash here** e digite o comando abaixo no terminal:
+
+```git clone atalho_que_você_copiou```
+
+Se as configurações estiverem corretas, o seu repositório do GitHub será sincronizado com a sua máquina local.
+
+
+
