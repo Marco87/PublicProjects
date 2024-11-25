@@ -1,6 +1,8 @@
 # Git
 
-Download do [Git](https://git-scm.com/downloads)
+🖥️Download do [Git](https://git-scm.com/downloads)
+
+🎨Editor de [README](https://readme.so/)
 
 ## Configurando o Git na sua máquina (Windows)
 Crie a pasta aonde os seus arquivos dos seus repositórios serão baixados para o seu computador.
