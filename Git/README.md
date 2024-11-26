@@ -4,6 +4,8 @@
 
 🎨Editor de [README](https://readme.so/)
 
+📂Documentação do [Git](https://git-scm.com/docs/git/pt_BR)
+
 
 
 ## Configurando o Git na sua máquina (Windows)
