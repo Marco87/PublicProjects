@@ -50,7 +50,7 @@ Digite o comando abaixo:
 
 Agora navegue até a sua pasta de usuários no Windows e entre na pasta **.ssh**. Este caminho normalmente é o seguinte: C:\Users(ou Usuários)\Seu usuário\.ssh
 
-Esta pasta terão dois arquivos chamados **id_rsa**. Abra o arquivo com a extensão **.pub** e copie todo o código.
+Esta pasta terá dois arquivos chamados **id_rsa**. Abra o arquivo com a extensão **.pub** e copie todo o código.
 
 Vá até o seu repositório [GitHub](https://github.com/) e clique na sua foto, na parte superior esquerda. No menu que se abrir, clique em **Settings**.
 
