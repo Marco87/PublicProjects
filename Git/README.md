@@ -4,6 +4,8 @@
 
 🎨Editor de [README](https://readme.so/)
 
+
+
 ## Configurando o Git na sua máquina (Windows)
 Crie a pasta aonde os seus arquivos dos seus repositórios serão baixados para o seu computador.
 Como exemplo, no meu caso eu criei uma pasta chamada Repos_Git dentro dos Meus Documentos.
