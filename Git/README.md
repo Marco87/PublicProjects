@@ -7,8 +7,8 @@
 📂Documentação do [Git](https://git-scm.com/docs/git/pt_BR)
 
 
-
-## Configurando o Git na sua máquina (Windows)
+<details>
+<summary><strong>Configurando o Git na sua máquina (Windows)</strong></summary>
 Crie a pasta aonde os seus arquivos dos seus repositórios serão baixados para o seu computador.
 Como exemplo, no meu caso eu criei uma pasta chamada Repos_Git dentro dos Meus Documentos.
 
@@ -39,8 +39,10 @@ Você verá o seu user.name e o seu user.email com as informações do seu perfi
 
 Pronto! Seu usuário já está configurado e você já pode usar o git no seu computador.
 
+</details>
 
-## Configurando o SSH na sua máquina (Windows)
+<details>
+<summary><strong>Configurando o SSH na sua máquina (Windows)</strong></summary>
 
 Navegue até a pasta onde o seu repositório está instalado e clique com o botão direito. Dentre as opções exibidas, aparecerão estas:
 
@@ -89,5 +91,6 @@ Selecione **Open Git Bash here** e digite o comando abaixo no terminal:
 
 Se as configurações estiverem corretas, o seu repositório do GitHub será sincronizado com a sua máquina local.
 
+</details>
 
 
