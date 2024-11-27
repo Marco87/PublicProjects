@@ -94,3 +94,20 @@ Se as configurações estiverem corretas, o seu repositório do GitHub será sin
 </details>
 
 
+<details>
+<summary><strong>Criando o fork de um repositório</strong></summary>
+
+Fork é a cópia de um repositório, e esta prática permite modificações de código independente do projeto original. É bastante usado para colaboração, testes e contribuições de projetos de código aberto.
+
+Os passos são bem simples. Vá até o repositório que você deseja criar o fork. Neste exemplo eu estou no GitHub da [Microsoft](https://github.com/microsoft), e vou simular um fork no repositório do [VS Code](https://github.com/microsoft/vscode).
+
+Na tela do repositório, procure pelo botão **Fork** e clique sobre ele.
+![image](https://github.com/user-attachments/assets/d0225c8a-621f-4e74-ba1a-6a3bb67c4b84)
+
+Uma tela como a imagem abaixo será carregada:
+![image](https://github.com/user-attachments/assets/9ac39464-10fb-4350-83a9-e5cba7be57bb)
+
+
+Note que é possível você alterar o nome e a descrição do repositório que serão criados no seu perfil.
+
+Clique em **Create fork** para confirmar a operação.
