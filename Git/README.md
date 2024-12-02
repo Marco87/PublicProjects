@@ -111,6 +111,7 @@ Uma tela como a imagem abaixo será carregada:
 Note que é possível você alterar o nome e a descrição do repositório que serão criados no seu perfil.
 
 Clique em **Create fork** para confirmar a operação.
+</details>
 
 <details>
 <summary><strong>Criando uma página no GitHub Pages</strong></summary>
