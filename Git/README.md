@@ -114,4 +114,8 @@ Clique em **Create fork** para confirmar a operação.
 
 <details>
 <summary><strong>Criando uma página no GitHub Pages</strong></summary>
+
+O GitHub Pages é o serviço de hospedagem do GitHub. Por ele é possível publicar sites por meio de arquivos HTML, CSS e JavaScript diretamente de um repositório.
+
+
 </details>
