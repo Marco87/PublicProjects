@@ -120,13 +120,21 @@ O GitHub Pages é o serviço de hospedagem do GitHub. Por ele é possível publi
 
 É possível utilizar um repositório existente ou criar um novo para esta finalidade. Neste exemplo criaremos um novo.
 
-*Se você já tem um repositório, ignore os próximos passos*
+*Se você já tem um repositório, ignore os próximos passos. Mais adiante avisarei de onde você pode prosseguir*
 
 No seu [GitHub](https://github.com/), clique na sua foto de perfil, na parte superior à direita, e clique em **Your Repositories**.
 
 (Lembrando que há outros caminhos para a criação de um novo repositório. Sinta-se à vontade para usar qualquer um deles)
 
 ![image](https://github.com/user-attachments/assets/14f1f4f1-ea00-4f4e-9974-c2edcb818ffe)
+
+Na tela que aparecer, clique em **New**
+
+![image](https://github.com/user-attachments/assets/8771e8c3-b2fe-4948-9700-1b46a5f96ea4)
+
+Vou nomear o meu repositório como **site_exemplo** e deixa-lo **Public**. Você pode nomear o seu repositório com um nome que reflita o site que você vai hospedar.
+
+![image](https://github.com/user-attachments/assets/933997ef-ea90-4925-bd94-c218984bc3f3)
 
 
 
