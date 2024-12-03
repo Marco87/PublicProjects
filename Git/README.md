@@ -149,7 +149,7 @@ Copie o código abaixo:
 </html>
 ```
 
-Agora salve com o nome **site.html**, e em tipo marque a opção **Todos os arquivos**.
+Agora salve com o nome **index.html**, e em tipo marque a opção **Todos os arquivos**.
 
 ![image](https://github.com/user-attachments/assets/7f213ac3-312d-4ddf-92ea-1a61fd63f5b4)
 
@@ -179,5 +179,15 @@ Em **Build and deployment**, na sessão **branch**, selecione a opção **main**
 Clique em **Save**.
 
 ![image](https://github.com/user-attachments/assets/6660c946-746c-4a48-a2e9-a1efbc8f9feb)
+
+Será gerada uma url com domínio **github.io**. Pode ser que demorem alguns minutos.
+
+Quando o processo estiver pronto, você verá uma mensagem como esta, no topo da sua página:
+
+![image](https://github.com/user-attachments/assets/2326f271-bd76-415b-9515-32ce22a1223d)
+
+Se mesmo após a url ser gerada a mensagem de erro aparecer, é porque o seu site ainda está sendo publicado. Em breve ele estará disponível.
+
+![image](https://github.com/user-attachments/assets/95511f78-0bde-406a-9c34-4a161429b244)
 
 </details>
