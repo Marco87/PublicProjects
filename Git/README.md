@@ -120,7 +120,7 @@ O GitHub Pages é o serviço de hospedagem do GitHub. Por ele é possível publi
 
 É possível utilizar um repositório existente ou criar um novo para esta finalidade. Neste exemplo criaremos um novo.
 
-*Se você já tem um repositório, ignore os próximos passos. Mais adiante avisarei de onde você pode prosseguir*
+***Se você já tem um repositório, ignore os próximos passos. Mais adiante avisarei de onde você pode prosseguir***
 
 No seu [GitHub](https://github.com/), clique na sua foto de perfil, na parte superior à direita, e clique em **Your Repositories**.
 
@@ -136,6 +136,48 @@ Vou nomear o meu repositório como **site_exemplo** e deixa-lo **Public**. Você
 
 ![image](https://github.com/user-attachments/assets/933997ef-ea90-4925-bd94-c218984bc3f3)
 
+Clique em **Create repository**.
 
+Seu repositório está criado. Agora nós vamos carregar uma página simples em HTML. 
+
+Copie o código abaixo:
+
+```
+<html>
+  <head><title>Título do meu site</title></head>
+  <body>Meu site no GitHub</body>
+</html>
+```
+
+Agora salve com o nome **site.html**, e em tipo marque a opção **Todos os arquivos**.
+
+![image](https://github.com/user-attachments/assets/7f213ac3-312d-4ddf-92ea-1a61fd63f5b4)
+
+Volte ao seu repositório e clique em **uploading an existing file** para carregar o arquivo que você acabou de criar.
+
+![image](https://github.com/user-attachments/assets/8f7a842f-167a-40f4-9b97-25d4f904205c)
+
+Você vai notar que o seu repositório passara a ter o arquivo **site.html**.
+
+![image](https://github.com/user-attachments/assets/74b1114a-c47c-483f-8647-b920659bdffb)
+
+
+***Para você que já tem um repositório, pode começar a partir daqui***
+
+Agora vamos dar forma ao nosso site.
+
+Clique em **Settings**
+
+![image](https://github.com/user-attachments/assets/f12e0765-e519-4ccf-a86f-5d6f159a3b52)
+
+Na sessão **Code and automation**, clique em **Pages**.
+
+![image](https://github.com/user-attachments/assets/3ef0856e-143b-42c6-9dea-50c89ac561b2)
+
+Em **Build and deployment**, na sessão **branch**, selecione a opção **main*** (normalmente a opção None vem selecionada por padrão) e ao lado selecione a opção **root** caso esta ainda não esteja marcada.
+
+Clique em **Save**.
+
+![image](https://github.com/user-attachments/assets/6660c946-746c-4a48-a2e9-a1efbc8f9feb)
 
 </details>
