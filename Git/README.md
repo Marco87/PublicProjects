@@ -151,15 +151,16 @@ Copie o código abaixo:
 
 Agora salve com o nome **index.html**, e em tipo marque a opção **Todos os arquivos**.
 
-![image](https://github.com/user-attachments/assets/7f213ac3-312d-4ddf-92ea-1a61fd63f5b4)
+![image](https://github.com/user-attachments/assets/15fecab5-643d-4fd1-85dc-638333b9fb95)
+
 
 Volte ao seu repositório e clique em **uploading an existing file** para carregar o arquivo que você acabou de criar.
 
 ![image](https://github.com/user-attachments/assets/8f7a842f-167a-40f4-9b97-25d4f904205c)
 
-Você vai notar que o seu repositório passara a ter o arquivo **site.html**.
+Você vai notar que o seu repositório passara a ter o arquivo **index.html**.
 
-![image](https://github.com/user-attachments/assets/74b1114a-c47c-483f-8647-b920659bdffb)
+![image](https://github.com/user-attachments/assets/7ee0d498-366b-448c-8452-6860bc5d923c)
 
 
 ***Para você que já tem um repositório, pode começar a partir daqui***
@@ -185,9 +186,5 @@ Será gerada uma url com domínio **github.io**. Pode ser que demorem alguns min
 Quando o processo estiver pronto, você verá uma mensagem como esta, no topo da sua página:
 
 ![image](https://github.com/user-attachments/assets/2326f271-bd76-415b-9515-32ce22a1223d)
-
-Se mesmo após a url ser gerada a mensagem de erro aparecer, é porque o seu site ainda está sendo publicado. Em breve ele estará disponível.
-
-![image](https://github.com/user-attachments/assets/95511f78-0bde-406a-9c34-4a161429b244)
 
 </details>
