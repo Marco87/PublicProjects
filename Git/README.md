@@ -158,7 +158,7 @@ Volte ao seu repositório e clique em **uploading an existing file** para carreg
 
 ![image](https://github.com/user-attachments/assets/8f7a842f-167a-40f4-9b97-25d4f904205c)
 
-Você vai notar que o seu repositório passara a ter o arquivo **index.html**.
+Você vai notar que o seu repositório passará a ter o arquivo **index.html**.
 
 ![image](https://github.com/user-attachments/assets/7ee0d498-366b-448c-8452-6860bc5d923c)
 
@@ -186,5 +186,7 @@ Será gerada uma url com domínio **github.io**. Pode ser que demorem alguns min
 Quando o processo estiver pronto, você verá uma mensagem como esta, no topo da sua página:
 
 ![image](https://github.com/user-attachments/assets/2326f271-bd76-415b-9515-32ce22a1223d)
+
+Clique no link gerado e pronto! Seu site está no ar!
 
 </details>
