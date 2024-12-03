@@ -118,5 +118,11 @@ Clique em **Create fork** para confirmar a operação.
 
 O GitHub Pages é o serviço de hospedagem do GitHub. Por ele é possível publicar sites por meio de arquivos HTML, CSS e JavaScript diretamente de um repositório.
 
+É possível criar uma página em um repositório existente ou criar um novo para esta finalidade. Neste exemplo criaremos um novo.
+
+No seu [GitHub](https://github.com/), clique na sua foto de perfil, na parte superior à direita, e clique em **Your Repositories**.
+
+![image](https://github.com/user-attachments/assets/14f1f4f1-ea00-4f4e-9974-c2edcb818ffe)
+
 
 </details>
