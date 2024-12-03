@@ -124,7 +124,10 @@ O GitHub Pages é o serviço de hospedagem do GitHub. Por ele é possível publi
 
 No seu [GitHub](https://github.com/), clique na sua foto de perfil, na parte superior à direita, e clique em **Your Repositories**.
 
+(Lembrando que há outros caminhos para a criação de um novo repositório. Sinta-se à vontade para usar qualquer um deles)
+
 ![image](https://github.com/user-attachments/assets/14f1f4f1-ea00-4f4e-9974-c2edcb818ffe)
+
 
 
 </details>
