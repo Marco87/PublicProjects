@@ -120,8 +120,10 @@ O GitHub Pages é o serviço de hospedagem do GitHub. Por ele é possível publi
 
 É possível utilizar um repositório existente ou criar um novo para esta finalidade. Neste exemplo criaremos um novo.
 
-***Se você já tem um repositório, ignore os próximos passos. Mais adiante avisarei de onde você pode prosseguir***
-
+***Se você já tem um repositório, ignore o tópico abaixo***
+<details>
+  <summary><strong>Criando um arquivo para colocar no repositório</strong></summary>
+  
 No seu [GitHub](https://github.com/), clique na sua foto de perfil, na parte superior à direita, e clique em **Your Repositories**.
 
 (Lembrando que há outros caminhos para a criação de um novo repositório. Sinta-se à vontade para usar qualquer um deles)
@@ -162,9 +164,12 @@ Você vai notar que o seu repositório passará a ter o arquivo **index.html**.
 
 ![image](https://github.com/user-attachments/assets/7ee0d498-366b-448c-8452-6860bc5d923c)
 
+</details>
 
 ***Para você que já tem um repositório, pode começar a partir daqui***
 
+<details>
+  <summary><strong>Configurando a sua página</strong></summary>
 Agora vamos dar forma ao nosso site.
 
 Clique em **Settings**
@@ -188,5 +193,7 @@ Quando o processo estiver pronto, você verá uma mensagem como esta, no topo da
 ![image](https://github.com/user-attachments/assets/2326f271-bd76-415b-9515-32ce22a1223d)
 
 Clique no link gerado e pronto! Seu site está no ar!
+
+</details>
 
 </details>
