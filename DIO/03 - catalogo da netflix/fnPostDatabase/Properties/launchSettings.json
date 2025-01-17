@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "fnPostDatabase": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7251",
+      "launchBrowser": false
+    }
+  }
+}

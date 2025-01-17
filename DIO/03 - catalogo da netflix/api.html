@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        #searchBar {
+            margin: 20px;
+            text-align: center;
+        }
+        #movies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        .card p {
+            color: #777;
+        }
+        #videoModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        #videoModalContent {
+            background-color: #000;
+            padding: 0;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+            width: 80%;
+            height: 80%;
+        }
+        #videoModalContent video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        #closeModal {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <div id="movies"></div>
+    <div id="videoModal">
+        <div id="videoModalContent">
+            <button id="closeModal" onclick="closeModal()">×</button>
+            <h2 id="videoTitle"></h2>
+            <video id="video" controls></video>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', fetchMovies);
+
+        async function fetchMovies() {
+            const response = await fetch('http://localhost:7252/api/all');
+            const movies = await response.json();
+            displayMovies(movies);
+        }
+
+        function displayMovies(movies) {
+            const moviesContainer = document.getElementById('movies');
+            moviesContainer.innerHTML = '';
+            movies.forEach(movie => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.onclick = () => searchMovie(movie.id);
+                card.innerHTML = `
+                    <img src="${movie.thumb}" alt="${movie.title}">
+                    <h3>${movie.title}</h3>
+                    <p>${movie.year}</p>
+                `;
+                moviesContainer.appendChild(card);
+            });
+        }
+
+        async function searchMovie(id) {
+            const response = await fetch(`http://localhost:7071/api/detail?id=${id}`);
+            const movie = await response.json();
+            if (movie) {
+                playMovie(movie.title, movie.video);
+            } else {
+                alert('Filme não encontrado');
+            }
+        }
+
+        function playMovie(title, videoUrl) {
+            const videoModal = document.getElementById('videoModal');
+            const videoTitle = document.getElementById('videoTitle');
+            const video = document.getElementById('video');
+
+            videoTitle.textContent = title;
+            video.src = videoUrl;
+            videoModal.style.display = 'flex';
+            video.play();
+        }
+
+        function closeModal() {
+            const videoModal = document.getElementById('videoModal');
+            const video = document.getElementById('video');
+
+            video.pause();
+            videoModal.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
