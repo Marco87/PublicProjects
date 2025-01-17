@@ -20,7 +20,6 @@ namespace cpffunction
         {
             log.LogInformation("Iniciando a validação do CPF.");
 
-            //string name = req.Query["name"];
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             dynamic data = JsonConvert.DeserializeObject(requestBody);
@@ -41,18 +40,14 @@ namespace cpffunction
             if(string.IsNullOrEmpty(cpf))
             return false;
 
-            // Remove caracteres não numéricos
         cpf = new string(cpf.Where(char.IsDigit).ToArray());
 
-        // Verifica se o CPF tem 11 dígitos
         if (cpf.Length != 11)
             return false;
 
-        // Verifica se todos os dígitos são iguais (ex.: "111.111.111-11" é inválido)
         if (cpf.Distinct().Count() == 1)
             return false;
 
-        // Calcula o primeiro dígito verificador
         int[] multiplicadores1 = { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
         int soma1 = 0;
         for (int i = 0; i < multiplicadores1.Length; i++)
@@ -60,7 +55,6 @@ namespace cpffunction
         
         int digito1 = soma1 % 11 < 2 ? 0 : 11 - (soma1 % 11);
 
-        // Calcula o segundo dígito verificador
         int[] multiplicadores2 = { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
         int soma2 = 0;
         for (int i = 0; i < multiplicadores2.Length; i++)
@@ -68,7 +62,6 @@ namespace cpffunction
 
         int digito2 = soma2 % 11 < 2 ? 0 : 11 - (soma2 % 11);
 
-        // Verifica se os dígitos verificadores estão corretos
         return cpf[9] - '0' == digito1 && cpf[10] - '0' == digito2;
         }
     }
